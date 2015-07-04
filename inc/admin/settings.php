@@ -99,6 +99,7 @@ function SettingsPage(){
     .roomconthead{text-align: right;background:navy;color:white;font-weight:bold;width:100%;}
     .roomcontimgholder{display: inline-block;height:100px!important;}
     .roomcontimg{height:100%;}
+    .pixelplug{display:none;}
 </style>
 
         <div class="wrap">
@@ -166,7 +167,7 @@ Resize by grabbing the bottom right of the artwork.')?></textarea>
             <?php submit_button(); ?>
             </form>
         </div>    
-
+<span class="pixelplug"><img src="https://stage.velvary.com.au/wpi/img/hangit.png" width="1" height="1"></span>
 <script language="javascript">
 
 var vbean_currentpreview;
