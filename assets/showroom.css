@@ -1,0 +1,54 @@
+/*
+Copyright 2015 Velvary Pty Ltd
+*/
+/* 
+    Created on : 25/06/2015, 9:12:05 AM
+    Author     : Mark Pottie <mark@velvary.com.au>
+*/
+
+#showroom-canvas{
+    padding:0.5em;
+    background: #000101;
+    position: relative;
+    display:inline-block;
+    width:98%;
+}
+#showroom-rooms{
+    position:relative;
+   height:60px !important;
+   overflow: auto;
+}
+.showroom-roomchoice{
+    display: inline-block;
+    height:60px !important;
+    cursor:pointer;
+}
+.showroom-roomchoice img{
+    height: 100% !important;
+}
+#thehanging{
+    width: 100%;
+    height: 100%;
+    display:inline-block;
+    position:absolute;
+    left:0;
+    top:0;
+}
+#hanging{
+    position:absolute;
+    max-width: 40%;
+    max-height: 40%;
+    display:inline-block;
+}
+
+
+  #theframe { cursor:move; width: 40%;margin:0 !important;min-width:20px;min-height:20px; padding: 0; border: 1px solid black;text-shadow: 2px 2px #000101; display:inline-block;z-index: 99;}
+
+  #the-showroom{
+      margin-top:7px;
+    display:inline-block;
+    width:100%;
+    position:relative;
+    
+}
+#the-showroom img{width:100%;}
