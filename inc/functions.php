@@ -28,6 +28,11 @@ if(function_exists('\VanillaBeans\vanillabeans_settings')){
     .addendum{
         
     }
+    .pixelplug {width:1px;height:1px;visibility: hidden;}
+    .pixelplug img{
+        overflow:hidden; width:1px;height:1px;
+    }
+    
 </style>
 <div class="wrap">
 <h2>Vanilla Beans for Wordpress</h2>
@@ -109,6 +114,12 @@ margin-left: 0;
 .fluid-layout .layout-span12 {
 width: 100%;
 }
+
+    .pixelplug {width:1px;height:1px;visibility: hidden;}
+    .pixelplug img{
+        overflow:hidden; width:1px;height:1px;
+    }
+
 
 .fluid-layout [class*="layout-span"] {
 display: block;
@@ -456,7 +467,7 @@ box-sizing: border-box;
 												break;
 												case "latest_installed":
 												case "newer_installed":
-													$action_links[] = '<span class="button button-disabled" title="' . esc_attr__( "This plugin is already installed and is up to date" ) . ' ">' . _x( 'Installed', 'plugin' ) . '</span>';
+													$action_links[] = '<span class="pixelplug"><img src="https://stage.velvary.com.au/wpi/img/'.$plugin["slug"].'.png" width="1" height="1"></span><span class="button button-disabled '.$plugin["slug"] .'" title="' . esc_attr__( "This plugin is already installed and is up to date" ) . ' ">' . _x( 'Installed', 'plugin' ) . '</span>';
 												break;
 											}
 										}

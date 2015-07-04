@@ -4,7 +4,7 @@ Donate link: http://www.velvary.com.au/vanilla-beans/wordpress/hangit
 Tags: woocommerce, product displays, custom display, hang it up, hangit
 Requires at least: 4.1
 Tested up to: 4.22
-Stable tag: 0.91
+Stable tag: 1.01
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,8 @@ Unzip into your plugins directory, install directly from
 wordpress plugins site.
 
 == Changelog ==
+= 1.01 =
+Changed Admin layout. No functional changes.
 
 = 0.91 =
 Initial release
