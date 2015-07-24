@@ -3,7 +3,7 @@ Contributors: vsmash
 Donate link: http://www.velvary.com.au/vanilla-beans/wordpress/hangit
 Tags: woocommerce, product displays, custom display, hang it up, hangit
 Requires at least: 4.1
-Tested up to: 4.23
+Tested up to: 4.2.3
 Stable tag: 1.02
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
