@@ -3,7 +3,7 @@
 Plugin Name: Hangit
 Plugin URI: http://www.velvary.com.au/vanilla-beans/wordpress/hangit
 Description: Addon for products and posts that would benefit from their featured image being dragged and resized onto background images
-Version: 1.01
+Version: 1.02
 Author: vsmash
 Author URI: http://www.velvary.com.au
 License: GPLv2
@@ -24,7 +24,7 @@ License: GPLv2
                     define( 'VBEANHANGIT_PLUGIN_FILE', __FILE__ );
             }
             if ( !defined( 'VBEANHANGIT_PLUGIN_VERSION' ) ) {
-                    define( 'VBEANHANGIT_PLUGIN_VERSION', '1.01' );
+                    define( 'VBEANHANGIT_PLUGIN_VERSION', '1.02' );
             }
 
             /*===========================================
